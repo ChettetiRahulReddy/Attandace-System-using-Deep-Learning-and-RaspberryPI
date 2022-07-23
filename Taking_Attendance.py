@@ -122,7 +122,7 @@ def g(email):
     video_capture.release()
     cv2.destroyAllWindows()
 
-    Send_Email("ch.rahulreddy00@gmail.com",f"{email}",f"Attandance of {today}","",f'{today}.xlsx',f'attendance/{today}.xlsx',"imagination5000")
+    Send_Email("your_email",f"{email}",f"Attandance of {today}","",f'{today}.xlsx',f'attendance/{today}.xlsx',"your_email_password")
 
 
 today = date.today()
@@ -169,4 +169,4 @@ def Send_Email(fromaddr,toaddr,Subject,body,filename,Path_tf,Password):
 
     s.quit()
 
-g('ch.rahulreddy00@gmail.com')
+g('your_email')
